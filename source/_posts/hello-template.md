@@ -1,89 +1,112 @@
 ---
-title: Hexo Template
+title: ChatGPT注册详细教程
 ---
 
-> A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
+ChatGPT 以其强大的信息整合和对话能力惊艳了全球，在自然语言处理上面表现出了惊人的能力。那么 ChatGPT 怎么用呢？本文将给你逐步详细介绍。
 
-[Demo](https://mmdjiji.github.io/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
+使用 ChatGPT 主要有4步：
 
-## CI/CD
+注册 ChatGPT 账号
+通过短信接码平台 sms-activate.org 完成 ChatGPT 手机号验证
+登录 ChatGPT 账号，对话框输入，开始使用 Chat GPT ！ 
+输入任意话题，探索 ChatGPT 的强大功能
+好了，我们开始逐步图文介绍。
 
-This repository uses GitHub Actions for CI/CD. You don't need to build your documents manually. Just commit your documents (then run `git push`), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is https://mmdjiji.github.io/hexo-template)
+1.注册 Chat GPT 账号
+注冊ChatGPT这一步主要包含以下几步（需要按照顺序逐步操作）：
 
-## !!! Attention !!!
+将网络环境切换成国外ip（注意：必须是国外 ip 如美国、加拿大等，香港澳门 ip 是不行的），且后续整个注册流程都必须在此网络环境下进行。
+打开 https://chat.openai.com/auth/login 链接并使用自己的邮箱进行账号注册
+打开邮箱查收 OpenAI 账号验证邮件，点击验证按钮完成邮箱验证
+下面每一个步骤的图片，大家可以对照着进行操作
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210233750052-827554754.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207184307647-1143472476.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207184352865-2024110462.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207184406761-2081502672.png
 
-There are two lines to modify in `_config.yml`:
+邮箱验证完成后，我们第一步注册 ChatGPT 账号就算完成了，但是到这里我们还不能开始使用 ChatGPT，因为我们还需要进行手机号码验证。没有通过手机号码验证是使用不了 OpenAI（ChatGPT的开发商） 的服务的。
 
-1. (At line 16) Set your site url here. For example, if you use GitHub Page, set url as `https://username.github.io/project`:
-```yml
-url: https://jiji.pro/hexo-template
-```
+因为OpenAI官方的限制，国内和港澳的手机号码还有 Google Voice 的虚拟号码都是不能使用的。
 
-2. (At line 107) Set your project name here, if your project name is `username` or `username.github.io`, just remove it at the end of `_config.yml`:
-```yml
-root: /hexo-template
-```
+这时候就要用到下一步的接码平台。
 
-**If you would not like to do so, it cannot work correctly.**
+最简单省事的方式是移步某宝直接 点此购买现成账号，打开看到 自动发货 ，购买即可。不用准备各种复杂的环境（适合新手小白），省去麻烦的环境配置过程，非常推荐！
 
-## Hexo Features
+那要怎么验证呢，请看下一步。
 
-- Blazing fast generating
-- Support for GitHub Flavored Markdown and most Octopress plugins
-- One-command deploy to GitHub Pages, Heroku, etc.
-- Powerful API for limitless extensibility
-- Hundreds of [themes](https://hexo.io/themes/) & [plugins](https://hexo.io/plugins/)
+2.完成 ChatGPT 手机号码验证
+这一步需要用到接码平台完成手机号验证，推荐平台链接地址：sms-activate.org
 
-## Commands
+具体过程包含以下几步：
 
-**Install Hexo**
+通过自己的邮箱注册 sms-activate.org 账号并完成邮箱验证（其他接码平台同理，但是不一定每个都好用，sms-activate是博主亲自验证过的）
+打开邮箱查收验证邮件并点击确认完成 sms-activate.org 账号认证
+登录sms-activate并且在右上角找到充值按钮，点击进行充值
+点击充值跳转后，往下滑找到支付宝，这里建议大家充值0.2美金就可以了（不够用再充）。
+充值好了以后回到首页搜索「open」关键字就可以找到 OpenAI 验证码的临时号码购买链接。
+在右侧激活区看到待使用的临时号码，将此号码复制到 OpenAI 的验证码接收区里面。
+在 OpenAI 的页面点击发送验证码，这样就可以在接码平台接收到验证码（有时候有一点慢需要耐心等待一下），将验证码填进去，这样就完成 ChatGPT 手机号验证了。
+ 这一步比较长，但是操起其实也不复杂，简单说就是通过接码平台收验证码完成验证，大家只要按照步骤操作就能成功。
+当然啦，如果嫌麻烦的朋友可以直接移步某宝购买一个现成的账号，效果是一样的。
 
-``` bash
-$ npm install hexo-cli -g
-```
 
-Install with [brew](https://brew.sh/) on macOS and Linux:
 
-```bash
-$ brew install hexo
-```
+下面是每一步的操作图，大家可以对照操作。
 
-**Setup your blog**
 
-``` bash
-$ hexo init blog
-$ cd blog
-```
 
-**Start the server**
+打开邮箱找到验证邮件
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185024328-751509578.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185112716-303139301.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185317705-1234813246.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185403009-621686955.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185414739-589389037.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185549081-1873197575.png
+https://img2023.cnblogs.com/blog/934338/202212/934338-20221207185709152-1392715897.png
 
-``` bash
-$ hexo server
-```
+历经千辛万苦，我们终于可以开始使用 ChatGPT 啦，恭喜！
 
-**Create a new post**
+3.登录 ChatGPT 账号并开始使用
+注册完后，我们去 ChatGPT 网站去登陆： https://chat.openai.com/auth/login
 
-``` bash
-$ hexo new "Hello Hexo"
-```
+输入我们上面第一步注册好的账号密码就可以成功登录。
+ 
+登录以后我们会进入到 ChatGPT 的主界面，在屏幕的正下方就是我们使用 ChatGPT 的输入对话框，ChatGPT采用交互式对话界面，使用非常便捷友好，你可以任意输入你感兴趣的内容并敲回车，ChatGPT 将会回答你。
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210230221497-2133810024.png
 
-**Generate static files**
+比如我们问一下 ChatGPT 梯形相关的问题，看看他会怎么回答。
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210230454794-137616561.png
 
-``` bash
-$ hexo generate
-```
+到这里，你已经学会了如何使用 ChatGPT 了！
 
-## More Information
+ 
 
-- Read the [documentation](https://hexo.io/)
-- Visit the [Awesome Hexo](https://github.com/hexojs/awesome-hexo) list
-- Find solutions in [troubleshooting](https://hexo.io/docs/troubleshooting.html)
-- Join discussion on [Google Group](https://groups.google.com/group/hexo), [Discord](https://discord.gg/teM2Anj), [Gitter](https://gitter.im/hexojs/hexo) or [Telegram](https://t.me/hexojs)
-- See the [plugin list](https://hexo.io/plugins/) and the [theme list](https://hexo.io/themes/) on wiki
-- Follow [@hexojs](https://twitter.com/hexojs) for latest news
+4.探索 ChatGPT 的强大功能
+你可以尝试用各种方式向 ChatGPT 提出各种各样的问题或者指令，通过这一步你将更能体会到 ChatGPT 的强大之处。来吧，朋友，让我们真正学会 Chat GPT 怎么用。
+比如：
+叫 ChatGPT 写一首诗
+叫 ChatGPT 写代码
+叫 ChatGPT进行翻译
+叫 ChatGPT 编故事
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210231406400-1663303886.png
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210231609254-968221890.png
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210231825822-342982581.png
+https://img2023.cnblogs.com/blog/3060337/202212/3060337-20221210232015632-943519252.png
 
-## License
+ 
 
-Follows [hexojs/hexo](https://github.com/hexojs/hexo) , use [MIT License](LICENSE).
+ 
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexojs%2Fhexo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexojs%2Fhexo?ref=badge_large)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 好啦，到这里为止，我们已经一步步教会了你怎麽注冊 ChatGPT账号，怎么通过 ChatGPT 手机号验证，怎么用 ChatGPT。
+
+ 祝大家玩的愉快！
